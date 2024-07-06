@@ -29,7 +29,7 @@ export const filmsSlice = createSliceWithThunk({
         fetchFilms: create.asyncThunk(
             async (filmName, { rejectWithValue }) => {
                 try {
-                    const response = await fetch(`http://www.omdbapi.com/?apikey=9713c5e7&s=${filmName}`);
+                    const response = await fetch(`https://www.omdbapi.com/?apikey=9713c5e7&s=${filmName}`);
 
                     if (!response.ok) {
                         return rejectWithValue("Loading films error!");
@@ -64,7 +64,7 @@ export const filmsSlice = createSliceWithThunk({
         fetchFilmDetails: create.asyncThunk(
             async (imdbID, { rejectWithValue }) => {
                 try {
-                    const response = await fetch(`http://www.omdbapi.com/?apikey=9713c5e7&i=${imdbID}`);
+                    const response = await fetch(`https://www.omdbapi.com/?apikey=9713c5e7&i=${imdbID}`);
                     if (!response.ok) {
                         return rejectWithValue("Loading film details error!");
                     }
