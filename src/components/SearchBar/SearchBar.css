@@ -1,0 +1,24 @@
+.searchBar-container {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.searchBar-input {
+    padding: 5px;
+    width: 300px;
+}
+
+.searchBar-button {
+    padding: 5px;
+    background-color: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchBar-button:hover {
+    background-color: royalblue;
+}

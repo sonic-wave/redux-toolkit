@@ -1,0 +1,12 @@
+.film-detail-backBtn {
+    padding: 5px;
+    background-color: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.film-detail-backBtn:hover {
+    background-color: royalblue;
+}

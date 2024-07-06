@@ -1,0 +1,17 @@
+.film-component {
+    width: 200px;
+}
+
+.film-title {
+    font-weight: bold;
+}
+
+.film-year {
+    color: grey;
+}
+
+.film-poster {
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+}
