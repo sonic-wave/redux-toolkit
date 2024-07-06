@@ -24,7 +24,7 @@ export const FilmsList = () => {
       {error && <h4>{error}</h4>}
       <div className="films-container">
         {films.Search && films.Search.map((film) => (
-          <Film film={film} onClick={() => handleFilmClick(film)} key={film.imdbID} />
+          <Film film={film} handleFilmClick={handleFilmClick} key={film.imdbID} />
         ))}
       </div>
     </>
